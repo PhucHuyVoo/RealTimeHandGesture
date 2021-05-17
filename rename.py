@@ -4,12 +4,12 @@
 # importing os module
 import os
 
-os.chdir('D://TFODCourse//HGM-4//HGM-1.0//Right_CAM//Z')
+os.chdir('') #Your dataset's path
 print(os.getcwd())
 
 for f in os.listdir():
     f_name, f_ext = os.path.splitext(f)
-    f_name = "Z_Right" +f_name
+    #f_name = ... :New file name
 
     new_name = '{} {}'.format(f_name, f_ext)
     os.rename(f, new_name)
