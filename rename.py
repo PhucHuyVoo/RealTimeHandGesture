@@ -4,12 +4,16 @@
 # importing os module
 import os
 
-os.chdir('') #Your dataset's path
-print(os.getcwd())
 
-for f in os.listdir():
-    f_name, f_ext = os.path.splitext(f)
-    #f_name = ... :New file name
+path = 'Below_CAM'
+name = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-    new_name = '{} {}'.format(f_name, f_ext)
-    os.rename(f, new_name)
+for i in range(26):
+    os.chdir(os.path.join(path,name[i]))
+    #print(os.getcwd())
+    for f in os.listdir():
+        f_name, f_ext = os.path.splitext(f)
+        #f_name = ... :New file name
+        f_name = '{}_Below'.format(name[i])+f_name
+        new_name = '{} {}'.format(f_name, f_ext)
+        os.rename(f, new_name)
