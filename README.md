@@ -1,2 +1,6 @@
-# RealTimeHandGesture
-https://drive.google.com/drive/folders/1LBIpBYqerTEclfJ_rPif6VAJc4aeITwl?usp=sharing
+This our small project about Handgesture Recognition in realtime
+In this project we use Faster R-CNN as out main model
+Kaggle data link : 
+  https://www.kaggle.com/signnteam/asl-sign-language-pictures-minus-j-z
+Report link:
+  
