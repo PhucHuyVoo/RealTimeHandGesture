@@ -6,7 +6,7 @@ In this project we use Faster R-CNN as out main model
 
 Kaggle data link : <https://www.kaggle.com/signnteam/asl-sign-language-pictures-minus-j-z>
 
-Report link: <https://www.overleaf.com/read/yfhtngbqtrjr>
+Report link: <https://drive.google.com/file/d/1W9ZsIoJ6breGfgvcJZ6P6J-7E_baVSS3/view?usp=sharing>
 
 Contributor:
 
