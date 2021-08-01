@@ -12,6 +12,6 @@ Contributor:
 
 [Vo Phuc Huy](https://github.com/PhucHuyVoo)
 
-[Le Son Bach](https://github.com/bach2411)
+[Le Son Bach](https://github.com/WujuMaster)
 
 [Nguyen Xuan Nham](https://github.com/LilKwanVu)
